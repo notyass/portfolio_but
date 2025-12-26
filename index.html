@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - 開発者</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particules de fond japonaises -->
+    <canvas id="sakuraCanvas"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="css/images/logo.png" alt="Logo" id="logoImg">
+                <span class="logo-text" style = "font-family: 'Nuku';">Yacine RABOUDI</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#apropos" class="nav-link">À Propos</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#parcours" class="nav-link">Parcours</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="kanji">開発者</span>
+                    <span class="name">print("Bienvenue dans mon domaine !")</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Étudiant en Informatique - 2ème année
+                </p>
+                <div class="hero-decorative">
+                    <span class="decorative-line"></span>
+                    <span class="decorative-symbol">忍者</span>
+                    <span class="decorative-line"></span>
+                </div>
+                <p class="hero-description">
+                    Passionné par le développement/programmation de jeux vidéos
+                </p>
+                <a href="#apropos" class="cta-button">
+                    <span>Découvrir mon univers</span>
+                    <span class="cta-arrow">↓</span>
+                </a>
+            </div>
+
+            <div class="hero-decoration">
+                <div class="sakura-container">
+                    <div class="sakura"></div>
+                    <div class="sakura"></div>
+                    <div class="sakura"></div>
+                    <div class="sakura"></div>
+                    <div class="sakura"></div>
+                </div>
+                <div class="torii-illustration">
+                    <svg viewBox="0 0 200 200" class="torii-svg">
+                        <rect x="40" y="50" width="8" height="120" fill="#8B0000"/>
+                        <rect x="152" y="50" width="8" height="120" fill="#8B0000"/>
+                        <rect x="20" y="45" width="160" height="12" rx="2" fill="#C41E3A"/>
+                        <rect x="15" y="75" width="170" height="10" rx="2" fill="#C41E3A"/>
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À Propos -->
+    <section id="apropos" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-kanji">紹介</span>
+                <h2 class="section-title">À Propos de Moi</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image-container">
+                    <div class="about-image-wrapper">
+                        <img src="css/images/pdp.jpg" alt="Photo de profil" class="about-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="about-decoration">
+                        <span class="deco-symbol">桜</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="about-greeting">Bonjour ! 👋</h3>
+                    <p class="about-paragraph">
+                        Je m’appelle Yacine Raboudi, je suis étudiant en deuxième année de BUT Informatique à l’Université Sorbonne Paris Nord. Passionné par l’informatique depuis mon enfance, je m’intéresse particulièrement au développement d’applications, au développement web, ainsi qu’à la programmation de jeux vidéo.
+                    </p>
+                    <p class="about-paragraph">
+                        Au cours de ma formation, j’ai acquis de solides bases en programmation (Java, Python), en développement web (HTML, CSS, JavaScript) et en bases de données (MySQL, PostgreSQL). J’ai eu l’occasion de mettre ces compétences en pratique à travers plusieurs projets académiques et personnels, comme le développement d’un jeu d’échecs en Java, d’un Pokédex full stack, ou encore la création d’API et d’applications web avec Flask.
+                    </p>
+                    <p class="about-paragraph">
+                        Au-delà de l’aspect technique, je porte une attention particulière à la qualité du code, à la clarté des solutions et aux détails d’implémentation. Ma fascination pour la culture japonaise et son approche minutieuse du travail influence ma manière de développer : j’essaie de produire un code propre, structuré et élégant, en accord avec une logique d’amélioration continue et de rigueur, à l’image du travail des artisans japonais.
+                    </p>
+                    <p class="about-paragraph">
+                        Je n’ai pas encore une expertise avancée sur toutes les technologies du web ou du jeu vidéo, mais je dispose d’un bon socle technique, d’une capacité d’apprentissage rapide et d’une réelle envie de progresser. J’aime comprendre comment les choses fonctionnent, structurer proprement mes projets et transformer une idée en application fonctionnelle.
+                    </p>
+                    <p class="about-paragraph">
+                        En dehors de l’informatique, je suis un passionné de jeux vidéo, de manga et d’animation japonaise. J’apprécie également la lecture, le cinéma et la musique, qui nourrissent ma créativité et mon inspiration. Je pratique multiple sports tels que le basket-ball, le grappling et la musculation, qui m’aident à maintenir un équilibre sain entre vie personnelle et études.
+                    </p>
+                    <p class="about-paragraph">
+                        Curieux, rigoureux et autonome, je souhaite poursuivre mon parcours en alternance en troisième année de BUT, au sein d’une équipe où je pourrai continuer à apprendre, contribuer activement et monter en compétences sur des projets concrets.
+                    </p>
+                    <p class="about-paragraph">
+                        Actuellement à la recherche d’un stage de 8 à 9 semaines (du 26 janvier au 28 mars 2025), je suis également intéressé par une alternance pour ma 3ᵉ année de BUT Informatique. N’hésitez pas à me contacter pour toute information complémentaire.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Années d'études</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15</span>
+                            <span class="stat-label">Projets réalisés</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10</span>
+                            <span class="stat-label">Langages maîtrisés</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-kanji">技術</span>
+                <h2 class="section-title">Mes Compétences</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="java">
+                    <div class="skill-icon-wrapper">
+                        <img src="css/images/java_icon.svg" alt="Java" class="skill-icon">
+                        <div class="skill-glow"></div>
+                    </div>
+                    <h3 class="skill-name">JAVA</h3>
+                    <p class="skill-description">
+                        Programmation orientée objet, développement d'applications robustes et évolutives
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">DOO</span>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="python">
+                    <div class="skill-icon-wrapper">
+                        <img src="css/images/python_icon.png" alt="Python" class="skill-icon">
+                        <div class="skill-glow"></div>
+                    </div>
+                    <h3 class="skill-name">PYTHON</h3>
+                    <p class="skill-description">
+                        Data science, automatisation, développement web avec Django et Flask
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Matplolib</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="sql">
+                    <div class="skill-icon-wrapper">
+                        <img src="css/images/sql_icon.png" alt="SQL" class="skill-icon">
+                        <div class="skill-glow"></div>
+                    </div>
+                    <h3 class="skill-name">SQL</h3>
+                    <p class="skill-description">
+                        Gestion de bases de données, optimisation des requêtes, modélisation relationnelle
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">SQLite3</span>
+                        <span class="skill-tag">psycopg</span>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="bash">
+                    <div class="skill-icon-wrapper">
+                        <img src="css/images/bash_icon.png" alt="Bash" class="skill-icon">
+                        <div class="skill-glow"></div>
+                    </div>
+                    <h3 class="skill-name">BASH</h3>
+                    <p class="skill-description">
+                        Scripts d'automatisation, administration système Linux, gestion de serveurs
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Shell</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compétences Complémentaires -->
+            <div class="competences-additional">
+                <h3 class="additional-title">Compétences Complémentaires</h3>
+                <div class="additional-skills">
+                    <div class="skill-group">
+                        <h4>Développement Web</h4>
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Flask</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h4>Outils & Technologies</h4>
+                        <div class="skill-tags">
+                            <span>Git</span>
+                            <span>VS Code</span>
+                            <span>Eclipse</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h4>Méthodologies</h4>
+                        <div class="skill-tags">
+                            <span>Agile</span>
+                            <span>Scrum</span>
+                            <span>TDD</span>
+                            <span>DevOps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-kanji">作品</span>
+                <h2 class="section-title">Mes Projets</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="css/images/project1.png" alt="Projet 1" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h4 class="project-overlay-title">Jeu d'échecs</h4>
+                                <p class="project-overlay-description">
+                                    En équipe de deux, nous avons développé un jeu d’échecs complet en Java, en implémentant l’ensemble des règles du jeu et en optimisant les déplacements, la détection des échecs et des mats, ainsi que la gestion des tours.
+
+Plutôt que de réaliser une interface en mode terminal, nous avons choisi de développer une interface graphique avec l'historique des coups dans le terminal, rendant le jeu pleinement interactif.
+
+Ce projet m’a permis de renforcer mes compétences en programmation orientée objet, en algorithmique et en structuration des données, tout en consolidant mon expérience du travail collaboratif sur un projet complexe.
+                                </p>
+                                <div class="project-tech-stack">
+                                    <span class="tech-badge">Java</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Jeu d'échecs</h3>
+                        <span class="project-category">Application</span>
+                        <span class="project-category">Jeu</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="css/images/project2.png" alt="Projet 2" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h4 class="project-overlay-title">Bot Discord Tracker</h4>
+                                <p class="project-overlay-description">
+                                    Un projet personnel qui consiste en un bot Discord développé en python utilisant la bibliothèque discord.py et l'API Discord. Son objectif principale est de track les parties des joueur sur le jeu League of Legends. A chque fin de partie, le bot envoie un récapitulatif détaillé des statistiques de la partie dans un canal Discord dédié. Le bot utilise l'API Riot Games pour récupérer les données de jeu en temps réel et les présenter de manière claire et concise aux utilisateurs. En plus de fournir des statistiques de base telles que les kills, morts, assists, le bot offre également des analyses avancées comme le KDA, le farm par minute, et les performances globales du joueur.(Non active actuellement)
+                                </p>
+                                <div class="project-tech-stack">
+                                    <span class="tech-badge">Python</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Bot Discord Tracker</h3>
+                        <span class="project-category">Utilitaire</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="css/images/project3.png" alt="Projet 3" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h4 class="project-overlay-title">Pokédex</h4>
+                                <p class="project-overlay-description">
+                                    Site web complet de commerce électronique développé avec Python Django. Fonctionnalités incluent : gestion de panier, système de paiement sécurisé, tableau de bord administrateur, gestion des stocks, système de notation et commentaires. Base de données PostgreSQL optimisée pour les performances.
+                                </p>
+                                <div class="project-tech-stack">
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">Flask</span>
+                                    <span class="tech-badge">SQlite3</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Pokédex</h3>
+                        <span class="project-category">Développement Web</span>
+                        <span class="project-category">Application Web</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="css/images/project4.png" alt="Projet 4" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h4 class="project-overlay-title">Développement d'un réseau social</h4>
+                                <p class="project-overlay-description">
+                                    Lors de ce projet en équipe de quatre, nous avons conçu une base de données simulant un réseau social, en définissant les entités et associations clés pour représenter les utilisateurs et leurs interactions. Nous avons ensuite analysé un fichier Excel d’utilisateurs, généré des graphiques avec Python et interprété les données pour identifier des tendances et comportements.
+
+Cette expérience m’a permis de suivre un projet de A à Z, de renforcer mes compétences en conception de bases de données, en analyse de données et en travail collaboratif.
+                                </p>
+                                <div class="project-tech-stack">
+                                    <span class="tech-badge">python</span>
+                                    <span class="tech-badge">PostgreSQL</span>
+                                    <span class="tech-badge">Looping</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Développement d'un réseau social</h3>
+                        <span class="project-category">Data Analyse</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="css/images/project5.jpg" alt="Projet 5" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h4 class="project-overlay-title">Gestion de Projet Fictionnel</h4>
+                                <p class="project-overlay-description">
+                                    En groupe de 2 personnes nous avons organisé et planifié une colonie de vacances fictive en utilisant des outils de gestion de projet. Nous avons défini les tâches, les échéances, et les responsabilités de chaque membre de l'équipe. Ce projet m'a permis de développer mes compétences en gestion de projet, en communication d'équipe, et en utilisation d'outils collaboratifs pour assurer le bon déroulement du projet.
+                                </p>
+                                <div class="project-tech-stack">
+                                    <span class="tech-badge">Gestion Projet</span>
+                                    <span class="tech-badge">PERT</span>
+                                    <span class="tech-badge">GANTT</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Gestion de Projet</h3>
+                        <span class="project-category">Gestion</span>
+                        <span class="project-category">Projet</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="css/images/project6.jpg" alt="Projet 6" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h4 class="project-overlay-title">Installation Linux + service réseau</h4>
+                                <p class="project-overlay-description">
+                                    Projet individuel visant à installer et configurer un système Linux complet avec des services réseau essentiels. J'ai installé une distribution Linux(ubuntu), configuré un serveur web Apache, mis en place un serveur FTP pour le transfert de fichiers, et assuré la sécurité du système avec des pare-feux et des mises à jour régulières. Ce projet m'a permis de renforcer mes compétences en administration système, en gestion de services réseau, et en sécurité informatique.
+                                </p>
+                                <div class="project-tech-stack">
+                                    <span class="tech-badge">Bash</span>
+                                    <span class="tech-badge">Linux</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Installation Linux + service réseau</h3>
+                        <span class="project-category">Bash</span>
+                        <span class="project-category">Linuxx</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Parcours -->
+    <section id="parcours" class="section journey-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-kanji">道程</span>
+                <h2 class="section-title">Mon Parcours</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">
+                            <span class="icon-symbol">💻</span>
+                        </div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <span class="timeline-date">Du début à la fin</span>
+                            <h3 class="timeline-title">Naissance de la passion pour l'informatique</h3>
+                            <h4 class="timeline-location">Domicile</h4>
+                            <p class="timeline-description">
+                                Depuis mon plus jeune âge, j'ai toujours été fasciné par les ordinateurs et la technologie. Celle-ci s'est intensifié avec mon passe-temps favori : les jeux vidéo. J'ai commencé à m'intéresser à la programmation en essayant de comprendre comment les jeux étaient créés, ce qui m'a conduit à apprendre des langages de programmation tels que le Python et le Java.
+                            </p>
+                            <div class="timeline-achievements">
+                                <span class="achievement-badge">Jeux vidéo</span>
+                                <span class="achievement-badge">Ordinateurs</span>
+                                <span class="achievement-badge">Technologie</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">
+                            <span class="icon-symbol">🎓</span>
+                        </div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <span class="timeline-date">2024</span>
+                            <h3 class="timeline-title">Baccalauréat Général</h3>
+                            <h4 class="timeline-location">Lycée Henri Wallon, Aubervilliers</h4>
+                            <p class="timeline-description">
+                                Obtention du baccalauréat avec mention assez bien. Spécialités : Mathématiques, Physique-Chimie, Science Vie et Terre(Spécialité abandonnée en terminale).
+                            </p>
+                            <div class="timeline-achievements">
+                                <span class="achievement-badge">Mention AB</span>
+                                <span class="achievement-badge">Mathématiques</span>
+                                <span class="achievement-badge">Physique-Chimie</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">
+                            <span class="icon-symbol">📚</span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <span class="timeline-date">2024 - Présent</span>
+                            <h3 class="timeline-title">BUT Informatique</h3>
+                            <h4 class="timeline-location">IUT de l'Université Sorbonne Paris Nord</h4>
+                            <p class="timeline-description">
+                                Actuellement en deuxième année, parcours Réalisation d'Application, Conception, Développement et Vérification.
+                            </p>
+                            <div class="timeline-achievements">
+                                <span class="achievement-badge">Programmation</span>
+                                <span class="achievement-badge">Travail en équipe</span>
+                                <span class="achievement-badge">Gestion de projet</span>
+                                <span class="achievement-badge">Développement professionnel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-kanji">連絡</span>
+                <h2 class="section-title">Me Contacter</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    Convaincu ? Voici mes coordonnées.
+                </p>
+                <div class="contact-methods">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                        </div>
+                        <h3 class="contact-card-title">GitHub</h3>
+                        <a href="https://github.com/notyass" target="https://github.com/notyass" class="contact-link">notyass</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="contact-card-title">LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/yacine-rab" target="https://www.linkedin.com/in/yacine-rab" class="contact-link">Yacine Raboudi</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            📧
+                        </div>
+                        <h3 class="contact-card-title">Email</h3>
+                        <a href="mailto:yacineraboudi@gmail.com" class="contact-link">yacineraboudi@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            📄
+                        </div>
+                        <h3 class="contact-card-title">Mon CV</h3>
+                        <a href="css/cv_raboudi.pdf" download class="download-btn">
+                            <span>Télécharger mon CV</span>
+                            <span>↓</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-kanji">開発者</div>
+            <p class="footer-text">
+                © Portfolio de Yacine. Pas touche ! | Développé avec passion et inspiration japonaise
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
