@@ -1272,6 +1272,23 @@ footer {
     .hero-text {
         order: 2;
     }
+
+    .sakura {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: radial-gradient(circle, #FFB7C5, #FF69B4);
+    border-radius: 50% 0 50% 0;
+    animation: fall 10s linear infinite;
+    opacity: 0.7;
+    filter: drop-shadow(0 2px 4px rgba(255, 105, 180, 0.3));
+    }
+
+    .torii-svg {
+    width: 450px;
+    height: 450px;
+    filter: drop-shadow(0 10px 30px rgba(196, 30, 58, 0.3));
+    }
     
     .about-content {
         flex-direction: column;
@@ -1353,6 +1370,22 @@ footer {
         font-size: 1.1rem;
     }
     
+    .sakura {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle, #FFB7C5, #FF69B4);
+    border-radius: 50% 0 50% 0;
+    animation: fall 10s linear infinite;
+    opacity: 0.7;
+    filter: drop-shadow(0 2px 4px rgba(255, 105, 180, 0.3));
+    }
+
+    .torii-svg {
+    width: 350px;
+    height: 350px;
+    filter: drop-shadow(0 10px 30px rgba(196, 30, 58, 0.3));
+    }
     
     .section-kanji {
         font-size: 3rem;
@@ -1400,6 +1433,23 @@ footer {
     
     .hero-section {
         padding: 6rem 1rem 3rem;
+    }
+
+    .sakura {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: radial-gradient(circle, #FFB7C5, #FF69B4);
+    border-radius: 50% 0 50% 0;
+    animation: fall 10s linear infinite;
+    opacity: 0.7;
+    filter: drop-shadow(0 2px 4px rgba(255, 105, 180, 0.3));
+    }
+
+    .torii-svg {
+    width: 250px;
+    height: 250px;
+    filter: drop-shadow(0 10px 30px rgba(196, 30, 58, 0.3));
     }
     
     .name {
