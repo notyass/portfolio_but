@@ -525,7 +525,7 @@ function initDownloadCV() {
                 z-index: 10000;
                 animation: slideDown 0.5s ease-out;
             `;
-            message.textContent = 'CV prêt à être téléchargé! Ajoutez votre fichier CV.pdf dans le dossier.';
+            message.textContent = 'CV prêt à être téléchargé! Ajoutez votre fichier cv_raboudi.pdf dans le dossier.';
             
             document.body.appendChild(message);
             
