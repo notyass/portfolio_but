@@ -1262,6 +1262,148 @@ footer {
     }
 }
 
+/* ==================== SECTION SAÉ (TABLEAUX S3 & S4) ==================== */
+.sae-section {
+    background: white;
+}
+
+.sae-card {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 40px var(--shadow);
+    position: relative;
+    overflow: hidden;
+    border-top: 5px solid var(--primary-color);
+}
+
+.sae-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.sae-title {
+    font-size: 1.6rem;
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--secondary-color);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.github-link:hover {
+    background: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.sae-table {
+    width: 100%;
+    min-width: 900px;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.sae-table th, 
+.sae-table td {
+    padding: 1.2rem;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #eee;
+    line-height: 1.6;
+}
+
+.sae-table th {
+    background: rgba(255, 105, 105, 0.1);
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.05rem;
+    width: 20%;
+}
+
+.sae-table td {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.task-group {
+    margin-bottom: 1rem;
+}
+
+.task-group:last-child {
+    margin-bottom: 0;
+}
+
+.task-group strong {
+    color: var(--secondary-color);
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+.sae-table ul {
+    padding-left: 1.2rem;
+    margin: 0;
+}
+
+.sae-table li {
+    margin-bottom: 0.3rem;
+}
+
+/* Version Mobile du tableau SAÉ */
+@media (max-width: 992px) {
+    .sae-table, 
+    .sae-table tbody, 
+    .sae-table tr, 
+    .sae-table td {
+        display: block;
+        width: 100%;
+    }
+    
+    .sae-table thead {
+        display: none; /* Cache l'en-tête sur mobile */
+    }
+    
+    .sae-table tr {
+        margin-bottom: 2rem;
+        border: none;
+    }
+    
+    .sae-table td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        padding: 1rem 0;
+        position: relative;
+    }
+    
+    .sae-table td::before {
+        content: attr(data-label);
+        display: block;
+        font-weight: 700;
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+}
+
 /* ==================== RESPONSIVE ==================== */
 @media (max-width: 1024px) {
     .hero-content {
