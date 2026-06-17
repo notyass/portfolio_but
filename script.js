@@ -497,7 +497,7 @@ function initLogoChange() {
  * RÔLE : Affiche un message quand on clique sur "Télécharger CV"
  * COMMENT : Crée une notification temporaire en haut de l'écran
  */
-function initDownloadCV() {
+/*function initDownloadCV() {
     const downloadBtns = document.querySelectorAll('.download-btn, .btn-download');
     
     downloadBtns.forEach(btn => {
@@ -567,7 +567,7 @@ function initDownloadCV() {
             }
         });
     });
-}
+}*/
 
 // ==================== EFFET HOVER 3D SUR LES CARTES ====================
 /**
